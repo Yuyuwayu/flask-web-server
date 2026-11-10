@@ -1,0 +1,24 @@
+# ============================================================
+# .dockerignore
+# Daftar file/folder yang TIDAK dikirim ke Docker build context
+# ============================================================
+
+# Virtual environment dan cache Python
+venv/
+__pycache__/
+*.pyc
+
+# File konfigurasi rahasia
+.env
+*.env
+
+# Metadata Git dan editor
+.git/
+.gitignore
+.vscode/
+
+# File yang tidak dibutuhkan di dalam container
+start.sh
+README.md
+Dockerfile
+.dockerignore
